@@ -42,4 +42,3 @@ GROUP BY CASE
 ORDER BY Total_Customers DESC;
 
 
-
