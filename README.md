@@ -70,7 +70,6 @@ This project analyzes banking customer data using MS SQL Server to understand cu
 
 ##  Project Structure
 
-```
 Bank-Churn-SQL-Analysis/
 │
 ├── README.md
@@ -80,9 +79,6 @@ Bank-Churn-SQL-Analysis/
 └── business_impact.md
 
 
-
-##  Conclusion
+## Conclusion
 
 This project showcases how SQL can be used to transform raw banking data into actionable insights for risk management, customer analysis, and strategic business planning.
-
-
