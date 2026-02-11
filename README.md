@@ -70,6 +70,8 @@ This project analyzes banking customer data using MS SQL Server to understand cu
 
 ##  Project Structure
 
+Conclusion
+
 Bank-Churn-SQL-Analysis/
 │
 ├── README.md
@@ -77,7 +79,6 @@ Bank-Churn-SQL-Analysis/
 ├── granular_analysis.sql
 ├── risk_analysis.sql
 └── business_impact.md
-
 
 ## Conclusion
 
