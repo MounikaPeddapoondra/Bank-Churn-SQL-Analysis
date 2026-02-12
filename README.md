@@ -1,7 +1,7 @@
 
-# 🏦 Banking Customer Financial Behaviour Analysis (SQL Project)
+# 🏦 Banking-Churn-SQL-Analysis (SQL Project)
 
-## 📌 Project Overview
+##  Project Overview
 
 This project analyzes **bank customer data** using **MS SQL Server** to uncover insights into financial behaviour, credit utilization, income patterns, and customer risk levels.
 
@@ -9,7 +9,7 @@ Although the dataset is related to bank churn, the focus of this project is on *
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 * **Database:** MS SQL Server
 * **Language:** SQL
@@ -17,7 +17,7 @@ Although the dataset is related to bank churn, the focus of this project is on *
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 This project aims to generate insights in the following areas:
 
@@ -29,7 +29,7 @@ This project aims to generate insights in the following areas:
 
 ---
 
-## 📊 Key KPIs Generated
+## Key KPIs Generated
 
 The following key performance indicators were calculated using SQL:
 
@@ -40,21 +40,21 @@ The following key performance indicators were calculated using SQL:
 
 ---
 
-## 🔍 Granular Analysis Performed
+## Granular Analysis Performed
 
-### 👥 Customer Segmentation
+###  Customer Segmentation
 
 * Distribution of customers by **Card Category**
 * Customers grouped by **Marital Status**
 * Age-based customer segmentation (18–25, 26–35, 36–45, 46–55, 56+)
 
-### 💰 Financial Behaviour Analysis
+###  Financial Behaviour Analysis
 
 * Average balance by income group
 * Customers with high credit limit but low balance
 * Dependent count analysis by income level
 
-### ⚠️ Credit Risk Analysis
+###  Credit Risk Analysis
 
 * Customers with highest credit utilization
 * Risk classification using Credit Utilization Index:
@@ -63,14 +63,14 @@ The following key performance indicators were calculated using SQL:
   * Moderate Risk
   * Low Risk
 
-### 🌟 High-Value Customer Insights
+###  High-Value Customer Insights
 
 * Customers with the longest banking relationship (tenure)
 * Long-term customers with high balances and limits
 
 ---
 
-## 🧠 Business Impact
+##  Business Impact
 
 This analysis helps banks in:
 
@@ -88,7 +88,7 @@ Detect dormant accounts and design re-engagement campaigns.
 
 ---
 
-## 🚀 Conclusion
+##  Conclusion
 
 This project showcases how **SQL-based financial data analysis** can transform raw banking data into actionable insights, enabling improved risk management, customer understanding, and strategic decision-making.
 
