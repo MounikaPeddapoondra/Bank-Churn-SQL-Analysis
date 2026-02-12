@@ -1,84 +1,95 @@
-# Bank Churn Analysis using SQL
 
-##  Project Overview
+# 🏦 Banking Customer Financial Behaviour Analysis (SQL Project)
 
-This project analyzes banking customer data using MS SQL Server to understand customer financial behavior, credit utilization patterns, and risk levels. The goal is to generate meaningful insights that help banks make better business and risk management decisions.
+## 📌 Project Overview
 
-##  Objectives
-- Perform **customer segmentation** based on age, income, marital status, and card category
-- Analyze **credit utilization** and identify high-risk customers
-- Evaluate **financial health** using balance and credit limit data
-- Identify **high-value (VIP) customers** and long-term relationships
-- Generate business KPIs for decision-making
+This project analyzes **bank customer data** using **MS SQL Server** to uncover insights into financial behaviour, credit utilization, income patterns, and customer risk levels.
 
-## Tools & Technologies
-
-- **Database:** MS SQL Server
-- **Language:** SQL
-- **Platform:** GitHub
+Although the dataset is related to bank churn, the focus of this project is on **financial analytics and risk assessment**, rather than churn prediction. The analysis demonstrates how SQL can be used to support data-driven decision-making in the **Banking & Financial Analytics domain**.
 
 ---
 
-##  Key KPIs Calculated
+## 🛠️ Tools & Technologies
 
-- Total Customers
-- Average Credit Utilization Ratio
-- Average Credit Limit
-- Average Customer Age
+* **Database:** MS SQL Server
+* **Language:** SQL
+* **Domain:** Banking & Financial Analytics
 
+---
 
-##  Analysis Performed
+## 🎯 Project Objectives
 
-### Customer Segmentation
+This project aims to generate insights in the following areas:
 
-* Age group distribution
-* Income-based customer grouping
-* Marital status distribution
-* Card category analysis
+* Customer Segmentation (Age, Income, Education, Credit Behaviour)
+* Credit Utilization & Risk Analysis
+* Spending Behaviour & Financial Health
+* High-Value Customer Identification
+* Dormant & High-Risk Accounts Detection
 
-###  Financial & Risk Analysis
+---
 
-* Top customers with highest credit utilization
+## 📊 Key KPIs Generated
+
+The following key performance indicators were calculated using SQL:
+
+* Total Customers
+* Average Credit Utilization Ratio
+* Average Credit Limit
+* Average Customer Age
+
+---
+
+## 🔍 Granular Analysis Performed
+
+### 👥 Customer Segmentation
+
+* Distribution of customers by **Card Category**
+* Customers grouped by **Marital Status**
+* Age-based customer segmentation (18–25, 26–35, 36–45, 46–55, 56+)
+
+### 💰 Financial Behaviour Analysis
+
+* Average balance by income group
 * Customers with high credit limit but low balance
-* Credit utilization risk categorization (High, Moderate, Low)
+* Dependent count analysis by income level
 
-### Relationship Analysis
+### ⚠️ Credit Risk Analysis
 
-* Customers with longest relationship with bank
-* VIP customer identification
+* Customers with highest credit utilization
+* Risk classification using Credit Utilization Index:
 
+  * High Risk
+  * Moderate Risk
+  * Low Risk
 
-##  Business Impact
+### 🌟 High-Value Customer Insights
 
-* Helps in **early identification of high-risk customers**
-* Supports **personalized banking services**
-* Improves **marketing targeting strategies**
-* Assists in **customer retention planning**
-* Strengthens **credit risk monitoring**
+* Customers with the longest banking relationship (tenure)
+* Long-term customers with high balances and limits
 
 ---
 
-##  Skills Demonstrated
+## 🧠 Business Impact
 
-* SQL Aggregations
-* GROUP BY & ORDER BY
-* CASE Statements
-* Data Segmentation
-* KPI Calculation
-* Business-Oriented Data Analysis
+This analysis helps banks in:
 
+**🔹 Better Credit Risk Management**
+Identify customers with high credit usage before potential defaults.
 
-##  Project Structure
+**🔹 Personalized Banking Services**
+Offer premium services to high-value customers.
 
-Bank-Churn-SQL-Analysis/
-│
-├── README.md
-├── kpi_queries.sql
-├── granular_analysis.sql
-├── risk_analysis.sql
-└── business_impact.md
+**🔹 Marketing Optimization**
+Target financially stable customers with higher product potential.
 
+**🔹 Customer Retention Strategies**
+Detect dormant accounts and design re-engagement campaigns.
 
-## Conclusion
+---
 
-This project showcases how SQL can be used to transform raw banking data into actionable insights for risk management, customer analysis, and strategic business planning.
+## 🚀 Conclusion
+
+This project showcases how **SQL-based financial data analysis** can transform raw banking data into actionable insights, enabling improved risk management, customer understanding, and strategic decision-making.
+
+---
