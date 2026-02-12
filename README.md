@@ -3,9 +3,9 @@
 
 ##  Project Overview
 
-This project analyzes **bank customer data** using **MS SQL Server** to uncover insights into financial behaviour, credit utilization, income patterns, and customer risk levels.
-
-Although the dataset is related to bank churn, the focus of this project is on **financial analytics and risk assessment**, rather than churn prediction. The analysis demonstrates how SQL can be used to support data-driven decision-making in the **Banking & Financial Analytics domain**.
+This project aims to analyse bank customer data to uncover insights about financial behaviour, credit utilization, income patterns, and risk assessment. Instead of focusing on churn or retention, the project emphasizes:
+The Banking and Financial Analytics domain revolves around using data-driven insights to optimize banking operations, enhance customer experience, and mitigate risks. Banks collect vast amounts of data from customer transactions, credit histories, and financial behaviour, which are analysed to make informed business decisions.
+In this domain, various analytical techniques are used to understand customer segmentation, assess credit risk, detect fraud, and improve financial product offerings. The primary goal is to enhance financial stability while maximizing customer retention and profitability.
 
 ---
 
