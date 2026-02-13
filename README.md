@@ -11,7 +11,7 @@ In this domain, various analytical techniques are used to understand customer se
 
 ##  Tools & Technologies
 
-* **Database:** MS SQL Server
+* **Database:** My SQL Server
 * **Language:** SQL
 * **Domain:** Banking & Financial Analytics
 
