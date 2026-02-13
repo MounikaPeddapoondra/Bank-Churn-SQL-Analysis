@@ -1,17 +1,18 @@
 1.	Highest Credit Utilization Customers (Top 10)
 
-SELECT TOP 10 
+SELECT 
     clientnum, 
     customer_age, 
     income, 
     credit_limit, 
     utilization_ratio
 FROM bank_churn_data
-ORDER BY utilization_ratio DESC;
+ORDER BY utilization_ratio DESC
+    LIMIT 10;
 
 2.	Customers with High Credit Limit but Low Balance (Top 10)
 
-SELECT TOP 10
+SELECT 
     clientnum, 
     customer_age, 
     income, 
@@ -20,18 +21,20 @@ SELECT TOP 10
     ROUND((balance * 100.0 / credit_limit), 2) AS Balance_Percentage
 FROM bank_churn_data
 WHERE balance < (0.2 * credit_limit)
-ORDER BY Balance_Percentage ASC;
+ORDER BY Balance_Percentage ASC
+    LIMIT 10;
 
 3.	Customers with the Longest Relationship (Top 10 by Tenure)
 
-SELECT TOP 10 
+SELECT 
     clientnum, 
     customer_age, 
     months_on_book, 
     income, 
     balance
 FROM bank_churn_data
-ORDER BY months_on_book DESC;
+ORDER BY months_on_book DESC
+    LIMIT 10;
 
 4.	Average Dependent Count by Income Group
 
